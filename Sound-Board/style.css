@@ -1,0 +1,27 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main > button {
+  background-color: aquamarine;
+  margin: 5px;
+  border-radius: 5px;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px;
+  cursor: pointer;
+  border: none;
+}
+.main > button:hover {
+  background-color: royalblue;
+}

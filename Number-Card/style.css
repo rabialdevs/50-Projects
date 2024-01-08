@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #b9929f;
+}
+.cards {
+  display: flex;
+
+  flex-direction: column;
+}
+.twitter,
+.youtube,
+.instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: 10px;
+  gap: 1rem;
+  margin: 0.635rem;
+  background-color: #e2c2c6;
+  box-shadow: 0 0 20px #2f0147;
+}
+@media (min-width: 615px) {
+  .cards {
+    flex-direction: row;
+    width: 45rem;
+    height: 15rem;
+  }
+}
