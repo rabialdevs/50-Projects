@@ -1,0 +1,53 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+padding: 10px;
+}
+.inner-container{
+  margin: 0.657rem;
+  flex: 1;
+  height: 100%;
+  border-radius: 5px;
+  position: relative;
+}
+#inner-container-1{
+  background-image: url('./image/mumbai.jpg');
+}
+#inner-container-2{
+  background-image: url('./image/bangkok.jpg');
+}
+#inner-container-3{
+  background-image: url('./image/quebec.jpg');
+}
+#inner-container-4{
+  background-image: url('./image/spain.jpg');
+}
+#inner-container-5{
+  background-image: url('./image/tokyo.jpg');
+}
+h1{
+  font-size: 2rem;
+  position: absolute;
+  top: 0%;
+text-align: center;
+  width: 100%;
+  background: rgba(0,0,0, 0.5);
+  color: white;
+
+  
+}
+.active{
+  flex: 3;
+}
