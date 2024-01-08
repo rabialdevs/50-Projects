@@ -21,6 +21,7 @@ padding: 10px;
   height: 100%;
   border-radius: 5px;
   position: relative;
+  transition: flex 0.5s ease-in-out;
 }
 #inner-container-1{
   background-image: url('./image/mumbai.jpg');
